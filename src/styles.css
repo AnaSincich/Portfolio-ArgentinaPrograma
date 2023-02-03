@@ -23,6 +23,7 @@ body{
     overflow: auto;
     height: auto;
     min-width: 600px;
+    z-index: 100;
  }
  
  .nav-item {
@@ -42,7 +43,6 @@ body{
  .nav-item:nth-child(){
     margin-right: auto;
 }
-
 
 .nav-item:nth-child(2){
     margin-right: auto;
@@ -118,6 +118,8 @@ body{
 
  .row {
     padding: 40px;
+    padding-left: 15%;
+    padding-right: 15%;
     font-size: 30px;
  }
 
@@ -131,7 +133,7 @@ body{
  }
 
 
- @media (max-width: 767px){
+ @media (max-width: 1200px){
     .nombre{
         padding-top: .75em;
         font-size: 28px;
@@ -143,3 +145,49 @@ body{
         font-size: 22px;
     }
  }
+
+ @media (min-width: 767px){
+    .img-fluid{
+        border-radius: 100%;
+    }
+ }
+
+  /*Experiencia y Educación*/
+
+  .experiencia {
+    text-align: center;
+    padding: 35px;
+ }
+
+ .educacion {
+    text-align: center;
+    padding: 35px;
+ }
+
+ .timeline {
+    padding-left: 15%;
+    padding-right: 15%;
+
+  }
+  
+  .outer {
+    border-left: 6px solid #960182;
+  }
+  
+  .card {
+    position: relative;
+    
+}
+  
+  .info {
+    display: flex;
+    flex-direction: column;
+    padding: 1em;
+    font-size: 30px;
+  }
+  
+  .title {
+    color: #960182;
+    position: relative;
+    font-size: 30px;
+  }
