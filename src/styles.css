@@ -125,7 +125,8 @@ body{
 
  .acercade {
     text-align: center;
-    padding-bottom: 35px;
+    padding: 35px;
+    padding-top:150px;
  }
 
  .nombre {
@@ -157,11 +158,13 @@ body{
   .experiencia {
     text-align: center;
     padding: 35px;
+    padding-top:150px;
  }
 
  .educacion {
     text-align: center;
     padding: 35px;
+    padding-top:150px;
  }
 
  .timeline {
@@ -191,3 +194,22 @@ body{
     position: relative;
     font-size: 30px;
   }
+
+    /*Hard y Soft skills*/
+
+    .skills {
+        text-align: center;
+        padding: 35px;
+        padding-top:150px;
+     }
+
+     .hardandsoft {
+        text-align: center;
+        padding: 25px;
+        padding-top:100px;
+        padding-bottom:60px;
+     }
+
+     .circulos {
+        text-align: center;
+     }
