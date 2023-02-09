@@ -10,7 +10,6 @@ Lenguajes y herramientas utilizadas para el Front End:
 -CSS
 -Bootstrap
 -Angular
--GitHub
 
 Lenguajes y herramientas utilizadas para el Back End: 
 
