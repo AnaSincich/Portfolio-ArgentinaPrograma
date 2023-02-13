@@ -5,6 +5,10 @@ div{
 
 p{
     line-height: 1.2;
+    color: grey;
+}
+h1{
+  color:grey;
 }
 
 /*Header*/
@@ -14,6 +18,7 @@ body{
     margin:0px;
     margin-top:60px;
     padding: 0px;
+    background-color: rgb(255, 208, 241);
  }
 
  .nav-list{
